@@ -31,3 +31,17 @@ if(idade >= 18){
 }else if(idade < 18){
     console.log("Acesso negado");
 }
+
+//Exercício 05 — Classificação de Chamados
+
+let prioridade = 2;
+
+if(prioridade == 1){
+    console.log("Prioridade baixa");
+}else if(prioridade == 2){
+    console.log("prioridade média");
+}else if(prioridade == 3){
+    console.log("prioridade alta");
+}else{
+    console.log("prioridade invalida");
+}
