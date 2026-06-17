@@ -21,3 +21,13 @@ let valorTotal = totalVendido + bonificacao;
 console.log("Vendas: R$ " + totalVendido);
 console.log("Bonificação: R$ " + bonificacao);
 console.log("Total: R$ " + valorTotal);
+
+//Exercício 04 — Validação de Acesso
+
+let idade = "23";
+
+if(idade >= 18){
+    console.log("Acesso autorizado");
+}else if(idade < 18){
+    console.log("Acesso negado");
+}
