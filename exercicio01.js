@@ -71,3 +71,4 @@ let equipe = ['Julia', 'Ana', 'Henrique', 'Gabriel', 'Andressa'];
 for (let  i= 0; i < equipe.length; i++){
 console.log("Integrante: " + equipe[i]);
 }
+
